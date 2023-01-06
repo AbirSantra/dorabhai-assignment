@@ -1,0 +1,84 @@
+.dashboard {
+	width: 100%;
+	overflow: hidden;
+}
+
+.dashboard--container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.dashboard--banner {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem 1.5rem;
+}
+
+.dashboard--banner img {
+	height: 220px;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: 0% 0%;
+}
+
+.dashboard--courses {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.courses--header {
+	padding: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.courses--header--heading {
+	font-size: 1.375rem;
+	font-weight: 500;
+	color: #3e4851;
+}
+
+.courses--header--more {
+	color: #ea1c1c;
+	font-weight: 500;
+	font-size: 1.125rem;
+}
+
+.courses--cards {
+	width: 100%;
+	margin: 0 0 1.5rem 1.5rem;
+	padding: 0 1.5rem 1.5rem 0;
+	display: flex;
+	gap: 2rem;
+	overflow-x: scroll;
+}
+
+.dashboard--library {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.library--cards {
+	width: 100%;
+	margin: 0 0 0 1.5rem;
+	padding: 0 1.5rem 1.5rem 0;
+	display: flex;
+	gap: 2rem;
+	overflow-x: scroll;
+}
+
+@media screen and (max-width: 768px) {
+	.courses--cards {
+		gap: 1rem;
+	}
+
+	.library--cards {
+		gap: 1rem;
+	}
+}
