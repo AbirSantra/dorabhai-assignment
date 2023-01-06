@@ -1,0 +1,39 @@
+.librarycard {
+	width: 235px;
+	height: 130px;
+	overflow: hidden;
+	border-radius: 6px;
+	color: white;
+}
+
+.librarycard--container {
+	height: 100%;
+	padding: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.librarycard--title {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.librarycard--bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.librarycard--type {
+	background-color: rgba(253, 253, 253, 0.2);
+	font-variant-caps: normal;
+	padding: 0.8rem 1.6rem;
+	border-radius: 2rem;
+	font-size: 12px;
+}
+
+.librarycard--bottom img {
+	width: 20px;
+	height: 20px;
+}
