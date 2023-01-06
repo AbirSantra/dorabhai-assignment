@@ -5,9 +5,33 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	font-family: "Poppins", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 img {
 	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 100vh;
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff5050;
+	border-radius: 100vh;
+}
+
+.App {
+	position: relative;
 }
