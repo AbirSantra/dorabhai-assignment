@@ -1,5 +1,5 @@
 .librarycard {
-	width: 235px;
+	min-width: 235px;
 	height: 130px;
 	overflow: hidden;
 	border-radius: 6px;
