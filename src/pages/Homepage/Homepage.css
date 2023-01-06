@@ -1,0 +1,17 @@
+.homepage {
+	width: 100%;
+	background-color: #f3f6f9;
+}
+
+.homepage--container {
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 290px auto;
+}
+
+@media screen and (max-width: 768px) {
+	.homepage--container {
+		grid-template-columns: auto;
+	}
+}
