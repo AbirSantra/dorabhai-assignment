@@ -1,0 +1,25 @@
+.footer {
+	width: 100%;
+	background-color: #ffffff;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer--container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer--text {
+	font-family: "Public Sans", sans-serif;
+	color: #898989;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer--text span {
+	color: #7f63f4;
+}
