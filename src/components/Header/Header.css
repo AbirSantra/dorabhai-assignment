@@ -1,0 +1,41 @@
+.header {
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 1.5rem;
+}
+
+.header--container {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.header--logo--icon,
+.header--logo--text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header--logo--icon {
+	width: 70px;
+}
+
+.header--logo--text {
+	width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+	.header--logo--icon {
+		width: 55px;
+	}
+
+	.header--logo--text {
+		width: 120px;
+	}
+}
