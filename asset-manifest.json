@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dorabhai-assignment/static/css/main.0c5505af.css",
+    "main.js": "/dorabhai-assignment/static/js/main.46ed83f3.js",
+    "static/media/banner.png": "/dorabhai-assignment/static/media/banner.20732bdad547d9ad7172.png",
+    "static/media/google-play-badge.png": "/dorabhai-assignment/static/media/google-play-badge.3b56f114030292ac4998.png",
+    "static/media/avatar.png": "/dorabhai-assignment/static/media/avatar.06466e0462c16d2af3c3.png",
+    "static/media/ringtheory.png": "/dorabhai-assignment/static/media/ringtheory.159e8dcc37c7e91cf2ed.png",
+    "index.html": "/dorabhai-assignment/index.html",
+    "main.0c5505af.css.map": "/dorabhai-assignment/static/css/main.0c5505af.css.map",
+    "main.46ed83f3.js.map": "/dorabhai-assignment/static/js/main.46ed83f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c5505af.css",
+    "static/js/main.46ed83f3.js"
+  ]
+}
